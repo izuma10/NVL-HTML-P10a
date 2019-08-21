@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<form method="post" action="cuestionario.php">
+  <div>
+    <label for="Código">Código postal:</label>
+    <input id="Código" type ="number">
+  </div>
+  <div>
+    <label for="nivel">Nivel de satisfacción:</label>
+    <select id="nivel">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+  <div>
+    <label  for="email">Email de usuario:</label>
+    <input id="email" type="text">
+  </div>
+  <div>
+    <label for=”puntosp”>Puntos positivos:</label>
+    <textarea id=”puntosp”></textarea>
+  </div>
+  <div>
+    <label for=”puntosn”>Puntos negativos:</label>
+    <textarea id=”puntosn”></textarea>
+  </div>
+  <div>
+    <label for="tiempo">Tiempo de entrega:</label>
+    <select id="tiempo">
+      <option value="Excelente">Excelente></option>
+       <option value="Bueno">Bueno></option>
+       <option value="Regular">Regular></option>
+       <option value="Pésimo">Pésimo></option>
+     </select>
+     </div>
+   <div>
+      <label for=”calidad”Calidad del producto:</label>
+      <input name=”calidad” type=”radio” value=”Excelente”>Excelente
+      <input name=”calidad” type=”radio” value=”Bueno”>Bueno
+      <input name=”calidad” type=”radio” value=”Regular”>Regular
+      <input name=”calidad” type=”radio” value=”Pésimo”>Pésimo
+  </div>
+</body>
+</form>
+</html>
